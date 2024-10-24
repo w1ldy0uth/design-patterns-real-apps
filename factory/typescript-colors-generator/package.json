@@ -1,0 +1,26 @@
+{
+  "name": "typescript-colors-generator",
+  "version": "1.0.0",
+  "description": "Example of colors generator for popular color models using Factory design pattern",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "example": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rgb",
+    "rgba",
+    "hsl",
+    "lch",
+    "oklch",
+    "color",
+    "factory"
+  ],
+  "author": "Ivan w1ldy0uth Shurygin",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
