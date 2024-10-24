@@ -23,6 +23,6 @@ export class HEXColor implements Color {
     }
 
     getColor(): string {
-        return `#${this._colorValue}#${this._alpha}`;
+        return `#${this._colorValue}${this._alpha}`;
     }
 }

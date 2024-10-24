@@ -5,7 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "build": "tsc",
-    "example": "ts-node index.ts",
+    "example": "tsx index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -20,7 +20,7 @@
   "author": "Ivan w1ldy0uth Shurygin",
   "license": "ISC",
   "devDependencies": {
-    "ts-node": "^10.9.2",
+    "tsx": "^4.19.1",
     "typescript": "^5.6.3"
   }
 }
