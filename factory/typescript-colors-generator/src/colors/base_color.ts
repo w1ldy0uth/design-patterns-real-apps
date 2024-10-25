@@ -1,4 +1,4 @@
 export interface Color {
-    getColor(): string;
+    getColor(withUnits?: boolean): string;
 }
 

@@ -36,6 +36,6 @@ export class HSLColor implements Color {
     }
 
     getColor(withUnits = false): string {
-        return `hsl(${this._hue}${withUnits ? 'deg' : ''}, ${this._saturation}${withUnits ? '%' : ''}, ${this._lightness})${withUnits ? '%' : ''}`;
+        return `hsl(${this._hue}${withUnits ? 'deg' : ''} ${this._saturation}${withUnits ? '%' : ''} ${this._lightness}${withUnits ? '%' : ''})`;
     }
 }
